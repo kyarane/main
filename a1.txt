@@ -1,3 +1,4 @@
-
+if getgenv().Library then return end
 getgenv().SCRIPT_KEY = ""
+
 loadstring(game:HttpGet("https://api.jnkie.com/api/v1/luascripts/public/85397b70ca3fc7093c81a0906fcea52f467c66317e7f6bb6955e2d1d825b2715/download"))()
